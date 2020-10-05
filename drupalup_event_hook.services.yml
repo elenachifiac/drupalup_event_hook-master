@@ -1,0 +1,6 @@
+services:
+    drupalup_event_hook.hook_form_alter:
+        class: Drupal\drupalup_event_hook\EventSubscriber\NodeInvitationFormAlterEventSubScriber
+        arguments: ['@current_user']
+        tags:
+          - { name: 'event_subscriber' }
