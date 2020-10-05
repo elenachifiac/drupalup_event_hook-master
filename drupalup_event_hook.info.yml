@@ -1,0 +1,6 @@
+name: Hook event dispatcher example
+description: Drupalup Form hook_event_dispatcher example
+type: module
+core: 8.x
+dependencies:
+  - drupal:hook_event_dispatcher
